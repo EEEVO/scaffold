@@ -1,15 +1,29 @@
 <template>
   <div id="helloword">
-    <p>{{msg}}</p>   
+    <p>{{num}}</p>   
   </div>
 </template>
 
-<script>
+<script type="es6">
+import {
+  addition,
+  subtraction,
+  multiplication,
+  division
+} from "../common/js/fourArithmetic";
+
 export default {
   data() {
     return {
-      msg: "你好嘻嘻"
+      msg: "你好嘻嘻",
+      arg1: 0.1,
+      arg2: 0.2
     };
+  },
+  computed: {
+    num() {
+      return subtraction(this.arg1, this.arg2);
+    }
   }
 };
 </script>
