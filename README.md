@@ -1,12 +1,14 @@
-# v2.1.0
+# 简介
 
 >脚手架基础配置为`vue-cli3.0`
 >
->自定义添加了`less`  ,  `vux`
+>增加了`zip-webpack-plugin`,`less`,`vux`的配置
 >
->简单的在axios上封装了ajax函数,
+>简单的在`axios`上封装了`ajax函数`,
 >
 >提供了少许的公共方法，取消了移动端点击延迟，添加了全局的焦点清楚方法，添加了UA头的判断方法
+>
+>添加了自定义的`beautify`格式化配置文件
 
 ## Build Setup
 

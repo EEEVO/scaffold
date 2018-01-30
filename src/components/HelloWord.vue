@@ -1,6 +1,6 @@
 <template>
   <div id="helloword">
-    <p>{{num}}</p>   
+    <p>{{num}}</p>
   </div>
 </template>
 

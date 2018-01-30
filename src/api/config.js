@@ -6,8 +6,7 @@ import axios from "axios"
 
 const IP_PORT = {
   // 接口调试
-  shixiong: "http://10.41.12.95:8099/thirdMerchant", // 世雄
-  test: "http://tm.thirdmerchant.com/thirdMerchant", // 测试环境
+  test: "http://10.41.12.95:8099",
 }
 
 /**

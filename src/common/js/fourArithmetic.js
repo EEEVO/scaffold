@@ -68,11 +68,12 @@ function multiplication(arg1, arg2) {
   const res2 = Number(s2.replace(".", ""))
   return (res1 * res2) / (10 ** m)
 }
+
 /**
  * 除法
- *
  * @param {Number} arg1
  * @param {Number} arg2
+ * @returns
  */
 function division(arg1, arg2) {
   let t1 = 0;
@@ -92,9 +93,4 @@ function division(arg1, arg2) {
   return multiplication((r1 / r2), 10 ** (t2 - t1));
 }
 
-export {
-  addition,
-  subtraction,
-  multiplication,
-  division
-}
+export { addition, subtraction, multiplication, division }
